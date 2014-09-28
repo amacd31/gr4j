@@ -1,0 +1,14 @@
+MANIFEST
+build/
+dist/
+pygr4j.egg-info/
+*DS_Store
+*.pyc
+*.png
+.coverage
+coverage.xml
+cover
+nosetests.xml
+*.swp
+gr4j/gr4j.c
+gr4j/gr4j.so

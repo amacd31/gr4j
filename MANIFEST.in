@@ -1,0 +1,4 @@
+include versioneer.py
+include gr4j/_version.py
+include README.rst
+include LICENSE
