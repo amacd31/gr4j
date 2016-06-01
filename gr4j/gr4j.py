@@ -125,6 +125,11 @@ def gr4j(precip, potential_evap, params, states = None, return_state = False):
         qsim.append(Q)
 
     if return_state:
-        return qsim, {'production_store': production_store, 'routing_store': routing_store}
+        return qsim, {
+            'production_store': production_store,
+            'routing_store': routing_store,
+            'UH1': UH1,
+            'UH2': UH2,
+        }
     else:
         return qsim
