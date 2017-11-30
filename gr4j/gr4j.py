@@ -78,9 +78,9 @@ def gr4j(precip, potential_evap, params, states = None, return_state = False):
         if P > E:
             net_evap = 0
             scaled_net_precip = (P - E)/X1
-            tanh_scaled_net_precip = tanh(scaled_net_precip)
             if scaled_net_precip > 13:
                 scaled_net_precip = 13.
+            tanh_scaled_net_precip = tanh(scaled_net_precip)
             reservoir_production = (X1 * (1 - (production_store/X1)**2) * tanh_scaled_net_precip) / (1 + production_store/X1 * tanh_scaled_net_precip)
 
             routing_pattern = P-E-reservoir_production
