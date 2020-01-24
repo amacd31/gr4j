@@ -41,9 +41,9 @@ Notes
 -----
 
 Implemented as a learning exercise. Code based on the paper 2003 paper by
-Perrin et al. and the website summary of the model. Results compared to the
-output of the Excel version of GR4J:
-https://webgr.irstea.fr/wp-content/uploads/2013/04/GR4J_en.xlsx
+Perrin et al. and the website summary of the model. Initial results compared to
+the output of the Excel version of GR4J:
+https://gitlab.irstea.fr/HYCAR-Hydro/ExcelGR/raw/master/GR4J/GR4J_EN.xlsx
 
 The design of a single functional method was chosen as part of this learning
 exercise with a mind to later implement an OpenCL version in C for parallel
@@ -55,4 +55,4 @@ References
 
 Perrin, Charles, Claude Michel, and Vazken Andréassian. "Improvement of a parsimonious model for streamflow simulation." Journal of Hydrology 279, no. 1 (2003): 275-289.
 
-Operation of GR4J: https://webgr.irstea.fr/modeles/journalier-gr4j-2/fonctionnement_gr4j/?lang=en
+Operation of GR4J: https://webgr.inrae.fr/en/models/daily-hydrological-model-gr4j/description-of-the-gr4j-model/
